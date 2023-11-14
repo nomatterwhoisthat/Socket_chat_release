@@ -20,7 +20,7 @@ HANDLE hThread;
 
 //map с соектами и логинами
 std::vector<std::pair<SOCKET, std::string>> Connections(100);
-int Counter = 0; //можно убрать
+int Counter = 0;
 
 //все пакеты
 enum Packet {
