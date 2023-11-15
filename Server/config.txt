@@ -1,2 +1,3 @@
 jack 1002 active
 alina 1234 active
+max 102 ban
