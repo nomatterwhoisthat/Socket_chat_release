@@ -10,7 +10,7 @@
 
 #pragma warning(disable: 4996)
 
-std::ofstream log_file("out.txt");
+std::ofstream log_file("log_file.txt");
 
 SOCKET Connection;
 HANDLE hThread;
