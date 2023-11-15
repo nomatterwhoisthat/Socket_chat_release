@@ -1,4 +1,4 @@
-﻿#pragma comment(lib, "ws2_32.lib")
+#pragma comment(lib, "ws2_32.lib")
 #include <winsock2.h>
 #include <iostream>
 #include <fstream>
@@ -14,7 +14,7 @@ int err;  //необязательно
 int closedSocket; //индекс закрытого сокета
 
 //лог-файл
-std::ofstream log_file("out.txt", std::ios::binary);
+std::ofstream log_file("log_file.txt", std::ios::binary);
 
 HANDLE hThread;
 
@@ -185,7 +185,7 @@ bool ProcessPacket(int index, Packet packettype) {
 		}
 
 		//проверяем, что такого логина и пароля нет в файле
-		if (!checkCredentials(login, password, "in.txt", index))
+		if (!checkCredentials(login, password, "config.txt", index))
 		{
 			Packet msgtype = P_Error;
 			send(Connections[index].first, (char*)&msgtype, sizeof(Packet), NULL);
@@ -277,7 +277,7 @@ bool ProcessPacket(int index, Packet packettype) {
 		//jack админ, его забанить нельзя
 		if (strcmp(login_of_user, "jack") != 0)
 		{
-			rewrite("in.txt", login_of_user);
+			rewrite("config.txt", login_of_user);
 
 			log_file << time << ' ' << login_of_user << " - was banned by admin" << std::endl;
 		}
@@ -309,7 +309,7 @@ bool ProcessPacket(int index, Packet packettype) {
 		recv(Connections[index].first, login, sizeof(login), NULL);
 		recv(Connections[index].first, password, sizeof(password), NULL);
 
-		std::ifstream file("in.txt", std::ios::app, std::ios::binary);
+		std::ifstream file("config.txt", std::ios::app, std::ios::binary);
 		char fileLogin[64], filePassword[64], status[64];
 
 		//проверка, что пользователь не забанен
@@ -332,7 +332,7 @@ bool ProcessPacket(int index, Packet packettype) {
 		//запись в массив
 		Connections[index].second = login;
 
-		std::ofstream file_out("in.txt", std::ios::app, std::ios::binary);
+		std::ofstream file_out("config.txt", std::ios::app, std::ios::binary);
 		file_out << login << ' ' << password << " active" << std::endl;
 
 		//повторение в логе
