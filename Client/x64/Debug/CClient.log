@@ -1,0 +1,12 @@
+﻿  CClient.cpp
+C:\Users\Nur\source\repos\CClient\CClient\CClient.cpp(353,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nur\source\repos\CClient\CClient\CClient.cpp(355,59): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nur\source\repos\CClient\CClient\CClient.cpp(374,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nur\source\repos\CClient\CClient\CClient.cpp(376,59): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nur\source\repos\CClient\CClient\CClient.cpp(437,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nur\source\repos\CClient\CClient\CClient.cpp(439,60): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nur\source\repos\CClient\CClient\CClient.cpp(477,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nur\source\repos\CClient\CClient\CClient.cpp(479,61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nur\source\repos\CClient\CClient\CClient.cpp(514,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nur\source\repos\CClient\CClient\CClient.cpp(516,60): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  CClient.vcxproj -> C:\Users\Nur\source\repos\CClient\x64\Debug\CClient.exe

@@ -1,0 +1,9 @@
+﻿  SServer.cpp
+C:\Users\Nur\source\repos\SServer\SServer\SServer.cpp(298,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nur\source\repos\SServer\SServer\SServer.cpp(300,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nur\source\repos\SServer\SServer\SServer.cpp(304,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nur\source\repos\SServer\SServer\SServer.cpp(306,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nur\source\repos\SServer\SServer\SServer.cpp(490,77): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nur\source\repos\SServer\SServer\SServer.cpp(620,81): warning C4312: 'type cast': conversion from 'int' to 'LPVOID' of greater size
+C:\Users\Nur\source\repos\SServer\SServer\SServer.cpp(633,80): warning C4312: 'type cast': conversion from 'int' to 'LPVOID' of greater size
+  SServer.vcxproj -> C:\Users\Nur\source\repos\SServer\x64\Debug\SServer.exe

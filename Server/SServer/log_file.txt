@@ -1,0 +1,42 @@
+[2023-12-24 17:36:08]Dan - was connected
+[2023-12-24 17:36:26]Ivan - was registrated
+[2023-12-24 17:36:32]Ivan sent the message :Hi.
+[2023-12-24 17:36:42]Dan sent the message :Hi.
+[2023-12-24 17:36:55]Dansent a private message to Ivan : Hiii.
+[2023-12-24 17:37:04]Dan - was disconnected
+[2023-12-24 17:37:05]Ivan - was disconnected
+[2023-12-24 17:40:51]Dan - was connected
+[2023-12-24 17:41:23]Ivan - was connected
+[2023-12-24 17:41:28]Ivan sent the message :Hi.
+[2023-12-24 17:41:38]Dan sent the message :Hi.
+[2023-12-24 17:41:46]Ivan sent the message :Hi.
+[2023-12-24 17:41:49]Dan sent the message :Hi.
+[2023-12-24 17:42:16]Dansent a private message to Ivan : HIIII.
+[2023-12-24 17:42:27]Ivan sent the message :eexit.
+[2023-12-24 17:42:40]Dan sent the message :exit.
+[2023-12-24 17:42:48]Dan sent the message :hi.
+[2023-12-24 17:42:52]Dan - was disconnected
+[2023-12-24 17:43:03]Ivan - was disconnected
+[2023-12-24 17:52:30]Dan - was connected
+[2023-12-24 17:52:33]Dan sent the message :Hi.
+[2023-12-24 17:52:52]Ivan - was connected
+[2023-12-24 17:52:56]Ivan sent the message :Hi.
+[2023-12-24 17:53:05]Dan sent the message :Gi.
+[2023-12-24 17:53:34]Dan - was disconnected
+[2023-12-24 17:53:45]Nur - try to reg again
+[2023-12-24 17:53:45]0 - was disconnected
+[2023-12-24 17:54:05]NUUUR - was registrated
+[2023-12-24 17:54:10]NUUUR sent the message :Hi.
+[2023-12-24 17:54:25]Ivan sent the message :How r u?
+[2023-12-24 17:54:30]NUUUR sent the message :Good.
+[2023-12-24 17:54:42]Ivan - was disconnected
+[2023-12-24 17:54:45]NUUUR - was disconnected
+[2023-12-24 18:00:56]Dan - wasnt connected cause of wrong auth
+[2023-12-24 18:00:56]0 - was disconnected
+[2023-12-24 18:01:09]Dan - wasnt connected cause of wrong auth
+[2023-12-24 18:01:09]0 - was disconnected
+[2023-12-24 18:01:18]Dan - was connected
+[2023-12-24 18:01:45]Nurjemal - was registrated
+[2023-12-24 18:01:48]Nurjemal sent the message :Hi.
+[2023-12-24 18:01:56]Dan - was disconnected
+[2023-12-24 18:01:57]Nurjemal - was disconnected

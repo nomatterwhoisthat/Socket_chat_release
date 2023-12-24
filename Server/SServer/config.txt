@@ -1,0 +1,9 @@
+LogFile=log_file.txt
+Address=127.0.0.1
+Port=1111
+Nur  234 active
+Dan 2003 active
+NUUUUUUUr 34442 active
+Ivan 20002 active
+NUUUR 4543 active
+Nurjemal 2004 active
